@@ -2,47 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://atmcgrath.github.io/data-cleaning/sections/working-with-data.html</loc>
-    <lastmod>2025-02-14T21:47:27.745Z</lastmod>
+    <lastmod>2025-02-14T22:00:55.505Z</lastmod>
   </url>
   <url>
     <loc>https://atmcgrath.github.io/data-cleaning/sections/tidy-vs-messy.html</loc>
-    <lastmod>2025-02-14T21:47:27.745Z</lastmod>
+    <lastmod>2025-02-14T22:00:29.985Z</lastmod>
   </url>
   <url>
     <loc>https://atmcgrath.github.io/data-cleaning/sections/summary.html</loc>
-    <lastmod>2025-02-14T21:47:27.744Z</lastmod>
+    <lastmod>2025-02-14T21:59:42.117Z</lastmod>
   </url>
   <url>
     <loc>https://atmcgrath.github.io/data-cleaning/sections/introducing-openrefine.html</loc>
+    <lastmod>2025-02-14T21:59:18.966Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atmcgrath.github.io/data-cleaning/sections/extra-credit.html</loc>
     <lastmod>2025-02-14T21:47:27.738Z</lastmod>
   </url>
   <url>
-    <loc>https://atmcgrath.github.io/data-cleaning/sections/exporting-data.html</loc>
-    <lastmod>2025-02-14T21:47:27.738Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atmcgrath.github.io/data-cleaning/sections/deduplicating.html</loc>
-    <lastmod>2025-02-14T21:47:27.737Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atmcgrath.github.io/data-cleaning/sections/checklist.html</loc>
-    <lastmod>2025-02-14T21:47:27.737Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atmcgrath.github.io/data-cleaning/index.html</loc>
-    <lastmod>2025-02-14T21:47:27.736Z</lastmod>
+    <loc>https://atmcgrath.github.io/data-cleaning/sections/exploring-openrefine.html</loc>
+    <lastmod>2025-02-14T21:58:52.297Z</lastmod>
   </url>
   <url>
     <loc>https://atmcgrath.github.io/data-cleaning/sections/contributing.html</loc>
     <lastmod>2025-02-14T21:47:27.737Z</lastmod>
   </url>
   <url>
-    <loc>https://atmcgrath.github.io/data-cleaning/sections/exploring-openrefine.html</loc>
-    <lastmod>2025-02-14T21:47:27.738Z</lastmod>
+    <loc>https://atmcgrath.github.io/data-cleaning/index.html</loc>
+    <lastmod>2025-02-14T21:55:00.298Z</lastmod>
   </url>
   <url>
-    <loc>https://atmcgrath.github.io/data-cleaning/sections/extra-credit.html</loc>
-    <lastmod>2025-02-14T21:47:27.738Z</lastmod>
+    <loc>https://atmcgrath.github.io/data-cleaning/sections/checklist.html</loc>
+    <lastmod>2025-02-14T21:47:27.737Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atmcgrath.github.io/data-cleaning/sections/deduplicating.html</loc>
+    <lastmod>2025-02-14T21:47:27.737Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atmcgrath.github.io/data-cleaning/sections/exporting-data.html</loc>
+    <lastmod>2025-02-14T21:58:52.296Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atmcgrath.github.io/data-cleaning/sections/glossary.html</loc>
+    <lastmod>2025-02-14T21:53:32.119Z</lastmod>
   </url>
   <url>
     <loc>https://atmcgrath.github.io/data-cleaning/sections/style-guide.html</loc>
@@ -50,10 +54,10 @@
   </url>
   <url>
     <loc>https://atmcgrath.github.io/data-cleaning/sections/tidy-vs-messy-ii.html</loc>
-    <lastmod>2025-02-14T21:47:27.744Z</lastmod>
+    <lastmod>2025-02-14T21:59:55.994Z</lastmod>
   </url>
   <url>
     <loc>https://atmcgrath.github.io/data-cleaning/sections/transforming-columns.html</loc>
-    <lastmod>2025-02-14T21:47:27.745Z</lastmod>
+    <lastmod>2025-02-14T22:00:42.756Z</lastmod>
   </url>
 </urlset>

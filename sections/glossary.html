@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../sections/exploring-openrefine.html" rel="next">
-<link href="../sections/tidy-vs-messy.html" rel="prev">
+<link href="../sections/deduplicating.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -105,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sections/introducing-openrefine.html">Introducing OpenRefine</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sections/glossary.html">Glossary</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -137,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../sections/introducing-openrefine.html" class="sidebar-item-text sidebar-link active">
+  <a href="../sections/introducing-openrefine.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introducing OpenRefine</span></a>
   </div>
 </li>
@@ -173,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../sections/glossary.html" class="sidebar-item-text sidebar-link">
+  <a href="../sections/glossary.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Glossary</span></a>
   </div>
 </li>
@@ -187,10 +186,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-is-openrefine" id="toc-what-is-openrefine" class="nav-link active" data-scroll-target="#what-is-openrefine">What is OpenRefine?</a>
+  <li><a href="#glossary" id="toc-glossary" class="nav-link active" data-scroll-target="#glossary">Glossary</a>
   <ul class="collapse">
-  <li><a href="#importing-data" id="toc-importing-data" class="nav-link" data-scroll-target="#importing-data">Importing Data</a></li>
-  <li><a href="#importing-sample-data" id="toc-importing-sample-data" class="nav-link" data-scroll-target="#importing-sample-data">Importing Sample Data</a></li>
+  <li><a href="#data-types-and-structures" id="toc-data-types-and-structures" class="nav-link" data-scroll-target="#data-types-and-structures">Data types and structures</a></li>
+  <li><a href="#other-definitions" id="toc-other-definitions" class="nav-link" data-scroll-target="#other-definitions">Other definitions</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -201,43 +200,19 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="what-is-openrefine" class="level1">
-<h1>What is OpenRefine?</h1>
-<p><a href="http://openrefine.org/">OpenRefine is cross-platform, open-source software</a> that allows users to clean and transform messy data. Originally supported by Google, it is now maintained by a large user community. OpenRefine is by no means the only or best way to work with data; however, it strikes an unusual balance between working in proprietary tools for a broad audience (like Microsoft Excel or GoogleSheets) on the one hand, and on the other, straight programming for data science (R Studio, Python Notebooks).</p>
-<p>It allows users to bring in messy data easily without requiring preliminary transformation. It allows for granular auditing of any changes. It combines (relatively) easy to use suite of features with the ability to write custom scripts when needed. It also allows users to parse with lots and lots of data. Microsoft Excel, for example, has a maximum of 1,048,576 rows by 16,384 columns.</p>
-<p>A couple things to note about OpenRefine: The software was originally written for the web so it runs in the browser rather than its own window. Rather than opening and saving files, it imports data into a “project” from which we can export versions of data suited to our needs.</p>
-<p>If you haven’t yet, be sure to download and install OpenRefine according to <a href="https://github.com/tri-cods/install/blob/master/guides/open_refine.md">the instructions on the installations page</a>.</p>
-<section id="importing-data" class="level2">
-<h2 class="anchored" data-anchor-id="importing-data">Importing Data</h2>
-<p>Like git, OpenRefine is not structured around discrete files that you open and save. Data is imported into a project without affecting the original file. Changes made to that data are bundled together into another file. Rather than saving over or saving multiple copies of data (i.e., <code>datafile_final-reallyfinal-FINAL.xls</code>) projects allow users to export derivative files with fine-grained control over how those derivatives should be formed.</p>
-<ol type="1">
-<li>From the <strong>Create Project</strong> option, select <strong>Choose Files</strong></li>
-</ol>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="openrefine-import-1.jpg" class="img-fluid figure-img"></p>
-<figcaption>openrefine: create a project screenshot</figcaption>
-</figure>
-</div>
-<ol start="2" type="1">
-<li>Having selected the data file, create a project name in the top bar then select <strong>Create Project</strong>. You may also choose from an array of options regarding how to parse that data. Note that you can import both tabular data like CSV’s or Excel files as well as nested formats, like JSON or XML.</li>
-</ol>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="openrefine-import-2.jpg" class="img-fluid figure-img"></p>
-<figcaption>openrefine: create a project options screenshot</figcaption>
-</figure>
-</div>
+<section id="glossary" class="level1">
+<h1>Glossary</h1>
+<section id="data-types-and-structures" class="level2">
+<h2 class="anchored" data-anchor-id="data-types-and-structures">Data types and structures</h2>
+<p><em>Tabular data</em> - Anything that can be represented in cells, organized into columns and rows (like a spreadsheet).</p>
+<p><em>CSV</em> and <em>TSV</em> - Common formats for tabular data. Cells are separated with commas (.csv or comma-separated values) or tabs (.tsv or tab-separated values).</p>
+<p><em>Graph data</em> - Data that can be represented by nodes and edges or branching structures.</p>
+<p><em>JSON</em> - (JavaScript Object Notation) A format for representing and storing graph data, designed for use with the C family of languages (including JavaScript).</p>
+<p><em>XML</em> - (eXstensible Markup Language) A data format for representing graph data that uses syntax similar to HTML.</p>
 </section>
-<section id="importing-sample-data" class="level2">
-<h2 class="anchored" data-anchor-id="importing-sample-data">Importing Sample Data</h2>
-<p>For our workshop we are going to be using <a href="https://raw.githubusercontent.com/swat-ds/datasets/main/1847census/sofaac-raw-export.csv">historical data derived from an 1847 Quaker census of African Americans living the Philadelphia area</a>, found in Friends Historical Library. <a href="https://ds-pages.swarthmore.edu/paac/">More context about the dataset</a> is available in the GitHub repository as well as in <a href="https://ds-pages.swarthmore.edu/paac/">the companion online exhibit</a>.</p>
-<p>Now create an OpenRefine project by selecting Create Project after which you have two options:</p>
-<ol type="1">
-<li>Select This Computer, browse, and navigate to wherever you’ve saved the file <code>sofaac-raw-export.csv</code></li>
-<li>Or select Web Addresses (URLs) and enter the URL for the dataset (<a href="https://raw.githubusercontent.com/swat-ds/datasets/main/1847census/sofaac-raw-export.csv">https://raw.githubusercontent.com/swat-ds/datasets/main/1847census/sofaac-raw-export.csv</a>)</li>
-</ol>
-<p>In the next screen go ahead and rename the project in the top bar. For now, let’s stick with the default settings and voilà, our first project.</p>
+<section id="other-definitions" class="level2">
+<h2 class="anchored" data-anchor-id="other-definitions">Other definitions</h2>
+<p><em>Tidy data</em> - A specific system for cleaning and standardizing data for statistical analysis using the R programming language, developed by Hadley Wickham. See the <a href="http://vita.had.co.nz/papers/tidy-data.html">original paper</a> or an <a href="https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html">informal version</a>.</p>
 
 
 </section>
@@ -655,14 +630,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../sections/tidy-vs-messy.html" class="pagination-link" aria-label="Tidy Data vs. Messy Data">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Tidy Data vs.&nbsp;Messy Data</span>
+      <a href="../sections/deduplicating.html" class="pagination-link" aria-label="Deduplicating rows">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Deduplicating rows</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../sections/exploring-openrefine.html" class="pagination-link" aria-label="Exploring OpenRefine">
-        <span class="nav-page-text">Exploring OpenRefine</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
