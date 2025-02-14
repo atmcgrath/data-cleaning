@@ -48,7 +48,11 @@
     "href": "sections/summary.html",
     "title": "What we’ve learned",
     "section": "",
-    "text": "What we’ve learned\nYou are now familiar with how to navigate the program OpenRefine but also some basic, high-level concepts about data in general. Regardless of whether you’re getting data together to do sophisticated analysis, to put batches of digitized of documents on the web, or to place pins on a map.\nIn this session, we learned how:\n\nhow to filter, facet, and sort in OpenRefine\nhow to import and export datasets\nhow to trim whitespace and cluster values for consistency\nhow to transform columns\nhow to think about structured data generally using tidy data inspired concepts"
+    "text": "What we’ve learned\nYou are now familiar with how to navigate the program OpenRefine but also some basic, high-level concepts about data in general. Regardless of whether you’re getting data together to do sophisticated analysis, to put batches of digitized of documents on the web, or to place pins on a map.\nIn this session, we learned how:\n\nhow to filter, facet, and sort in OpenRefine\nhow to import and export datasets\nhow to trim whitespace and cluster values for consistency\nhow to transform columns\nhow to think about structured data generally using tidy data inspired concepts",
+    "crumbs": [
+      "Home",
+      "What we've learned"
+    ]
   },
   {
     "objectID": "sections/introducing-openrefine.html",
