@@ -15,27 +15,27 @@ In this session, we will:
 - split columns with multiple values
 - introduce regular expressions
 
-[Get Started >>>](sections/working-with-data.md)
-
-[Glossary >>>](https://github.com/tri-cods/glossary/blob/master/sections/tidy-data.md) 
+[Get Started](sections/working-with-data.md)
 
 ## Sections
 
-[Working with Data](sections/working-with-data.md)
+- [Working with Data](sections/working-with-data.md)
 
-[Tidy vs Messy Data](sections/tidy-vs-messy.md)
+- [Tidy vs Messy Data](sections/tidy-vs-messy.md)
 
-[Introducing OpenRefine](sections/introducing-openrefine.md)
+- [Introducing OpenRefine](sections/introducing-openrefine.md)
 
-[Exploring OpenRefine](sections/exploring-openrefine.md)
+- [Exploring OpenRefine](sections/exploring-openrefine.md)
 
-[Tidy vs Messy Data Part II](sections/tidy-vs-messy-ii.md)
+- [Tidy vs Messy Data Part II](sections/tidy-vs-messy-ii.md)
 
-[Transforming Columns](sections/transforming-columns.md)
+- [Transforming Columns](sections/transforming-columns.md)
 
-[Exporting Data](sections/exporting-data.md)
+- [Exporting Data](sections/exporting-data.md)
 
-[Deduplicating Rows](sections/deduplicating.md) 
+- [Deduplicating Rows](sections/deduplicating.md) 
+
+- [Glossary](sections/glossary.md) 
 
 ## Resources
 

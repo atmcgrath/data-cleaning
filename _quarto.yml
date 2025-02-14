@@ -31,6 +31,7 @@ website:
         text: Transforming columns
       - href: sections/exporting-data.md
       - href: sections/deduplicating.md
+      - href: sections/glossary.md
   page-footer: "Tri-Co Digital Scholarship, [CC-BY-SA](http://creativecommons.org/licenses/by-sa/4.0/)"
   page-navigation: true
         
