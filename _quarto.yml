@@ -11,6 +11,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: https://atmcgrath.github.io/intro-dh/
+        text: Intro DH Syllabus
 
   sidebar:
     style: "floating"
@@ -32,13 +34,16 @@ website:
       - href: sections/exporting-data.md
       - href: sections/deduplicating.md
       - href: sections/glossary.md
+      - href: sections/summary.md
   page-footer: "Tri-Co Digital Scholarship, [CC-BY-SA](http://creativecommons.org/licenses/by-sa/4.0/)"
   page-navigation: true
         
 
 format:
   html:
-    theme: cerulean
+    theme: 
+      light: cerulean
+      dark: darkly
     css: styles.css
     toc: true
 
