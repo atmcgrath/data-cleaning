@@ -1,0 +1,45 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "*.md"
+    - "!README.md"
+
+website:
+  title: "Data Cleaning with OpenRefine"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+  sidebar:
+    style: "floating"
+    contents:
+      - href: index.qmd
+        text: Overview
+      - href: sections/working-with-data.md
+        text: Working with Data
+      - href: sections/tidy-vs-messy.md
+        text: Tidy Data vs. Messy Data
+      - href: sections/introducing-openrefine.md
+        text: Introducing OpenRefine
+      - href: sections/exploring-openrefine.md
+        text: Exploring OpenRefine
+      - href: sections/tidy-vs-messy-ii.md
+        text: Tidy vs. Messy part II
+      - href: sections/transforming-columns.md
+        text: Transforming columns
+      - href: sections/exporting-data.md
+      - href: sections/deduplicating.md
+  page-footer: "Tri-Co Digital Scholarship, [CC-BY-SA](http://creativecommons.org/licenses/by-sa/4.0/)"
+  page-navigation: true
+        
+
+format:
+  html:
+    theme: cerulean
+    css: styles.css
+    toc: true
+
+
+
