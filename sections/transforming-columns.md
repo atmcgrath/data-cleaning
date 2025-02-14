@@ -1,4 +1,3 @@
-[<<< Previous](tidy-vs-messy-ii.md) | [Next >>>](exporting-data.md)
 
 # Transforming columns
 
@@ -53,6 +52,3 @@ Select **OK** and we should have a new column with numbers stripped.
 In our new column **Street name**, select **Facet** -> **Text facet**. Next select **count** besides **Sort by**. 
 
 So how many residences surveyed were on Lombard Street? Clearly, this is not perfect. What step might we take to better cluster addresses based on the street?
-
-[<<< Previous](tidy-vs-messy-ii.md) | [Next >>>](exporting-data.md)
-

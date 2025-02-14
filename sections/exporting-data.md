@@ -1,4 +1,4 @@
-[<<< Previous](deduplicating.md) | [Next >>>](summary.md)
+
 
 # Exporting data
 
@@ -24,4 +24,3 @@ To create a derivative of the data select **Export** and notice the range of opt
 
 Now download a CSV with only the **Id**, **Residence**, **Name**, **Street name**, and **Number in family** columns, in that order. Note that you could also upload the spreadsheet straight to a Google Drive folder. This table -- unexciting as it might seem -- is the key to tidy data. With this key to unique residences that were sampled, we can create subsets of the data that answer specific questions like "How many households with children had females that were employed as washers?" or "How do men's reported wages compare to women's?"  *much* more easily than before.
 
-[<<< Previous](deduplicating.md) | [Next >>>](summary.md)

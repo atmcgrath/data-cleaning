@@ -1,4 +1,3 @@
-[<<< Previous](exporting-data.md)
 
 # What we've learned
 
@@ -11,5 +10,3 @@ In this session, we learned how:
 - how to **trim whitespace** and **cluster** values for consistency
 - how to **transform columns** 
 - how to think about structured data generally using **tidy data** inspired concepts
-
-[<<< Previous](exporting-data.md)

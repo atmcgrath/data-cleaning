@@ -1,4 +1,3 @@
-[<<< Previous](working-with-data.md) | [Next >>>](introducing-openrefine.md)
 
 # Tidy vs. Messy Part I
 
@@ -12,8 +11,4 @@ Concretely, what does this mean? Data entered by hand is going to be inconsisten
 
 For our workshop we are going to be using [historical data derived from an 1847 Quaker census of African Americans living the Philadelphia area](https://raw.githubusercontent.com/swat-ds/datasets/main/1847census/sofaac-raw-export.csv), found in Friends Historical Library. [More context about the dataset](https://ds-pages.swarthmore.edu/paac/) is available in the GitHub repository as well as in [the companion online exhibit](https://ds-pages.swarthmore.edu/paac/).
 
-What does the file consist of? A strategy that is often of use is to explore a dataset before getting bogged down by line level details. We might use a tool like the web application WTFcsv, part of databasic.io to get started.
-
-[Here is a link to WTFcsv with our dataset preloaded](https://databasic.io/en/wtfcsv/results/62a34a53d16c580174355528).
-
-[<<< Previous](working-with-data.md) | [Next >>>](introducing-openrefine.md)
+What does the file consist of? A strategy that is often of use is to explore a dataset before getting bogged down by line level details. We might use a tool like the web application [WTFcsv](https://databasic.io/en/wtfcsv/), part of databasic.io to get started.

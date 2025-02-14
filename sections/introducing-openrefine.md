@@ -1,4 +1,3 @@
-[<<< Previous](tidy-vs-messy.md) | [Next >>>](exploring-openrefine.md)
 
 # What is OpenRefine?
 
@@ -32,5 +31,3 @@ Now create an OpenRefine project by selecting Create Project after which you hav
 2) Or select Web Addresses (URLs) and enter the URL for the dataset ([https://raw.githubusercontent.com/swat-ds/datasets/main/1847census/sofaac-raw-export.csv](https://raw.githubusercontent.com/swat-ds/datasets/main/1847census/sofaac-raw-export.csv))
 
 In the next screen go ahead and rename the project in the top bar. For now, let's stick with the default settings and voilà, our first project.
-
-[<<< Previous](tidy-vs-messy.md) | [Next >>>](exploring-openrefine.md)

@@ -1,4 +1,3 @@
-[<<< Previous](introducing-openrefine.md) | [Next >>>](tidy-vs-messy-ii.md)
 
 # Exploring an OpenRefine project
 
@@ -53,5 +52,3 @@ OpenRefine suggests changes and by checking the checkbox beside those suggestion
 Notice that you can **Select All** or **Unselect All** from the bottom of the menu.
 
 Select **Merge selected & Re-Cluster**. We can repeat the process until as many times as we want. Note there are other algorithms that will allow us to get slightly different results and that each algorithm has a suite of options to tweak. [Here's a more in-depth treatment of those options.](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth)
-
-[<<< Previous](introducing-openrefine.md) | [Next >>>](tidy-vs-messy-ii.md)
