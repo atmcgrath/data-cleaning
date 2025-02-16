@@ -200,7 +200,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#tidy-vs.-messy-part-i" id="toc-tidy-vs.-messy-part-i" class="nav-link active" data-scroll-target="#tidy-vs.-messy-part-i">Tidy vs.&nbsp;Messy Part I</a></li>
+  <li><a href="#tidy-vs.-messy-part-i" id="toc-tidy-vs.-messy-part-i" class="nav-link active" data-scroll-target="#tidy-vs.-messy-part-i">Tidy vs.&nbsp;Messy Part I</a>
+  <ul class="collapse">
+  <li><a href="#our-dataset" id="toc-our-dataset" class="nav-link" data-scroll-target="#our-dataset">Our dataset</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -216,10 +219,14 @@ ul.task-list li input[type="checkbox"] {
 <p>Thinking tidily is helpful for anybody working with data, but particularly so for those in some humanities and social sciences who may not have had prior need to think in structured ways about their sources. With little practice, these researchers are often thrown into some of the messiest, most inconsistent, and otherwise challenging data to work with. Having a few rules of thumb can be invaluable.</p>
 <p>For our purposes, tidying up means thinking about data in terms of reusable, machine-readable files. Even better: If the datasets are transparent and able to be audited.</p>
 <p>Concretely, what does this mean? Data entered by hand is going to be inconsistent. Depending on our use case, that may be fine. If we intend to perform computational analysis or create visualizations; however, we will need to address some of that inconsistency because, well, computers are dumb. There is no ambiguity if an extra space appears in the middle of two words, for example, <code>N.  Lombard St</code>. To a machine, that value is utterly different from any other cell in which those same two words might appear, say, <code>N Lombard Street</code> or <code>North Lombard</code>. But as this example might suggest, how can we generalize when “each dataset is messy in its own way”, often requiring context and data specific remediation?</p>
-<p>For our workshop we are going to be using <a href="https://raw.githubusercontent.com/swat-ds/datasets/main/1847census/sofaac-raw-export.csv">historical data derived from an 1847 Quaker census of African Americans living the Philadelphia area</a>, found in Friends Historical Library. <a href="https://ds-pages.swarthmore.edu/paac/">More context about the dataset</a> is available in the GitHub repository as well as in <a href="https://ds-pages.swarthmore.edu/paac/">the companion online exhibit</a>.</p>
+<section id="our-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="our-dataset">Our dataset</h2>
+<p>For our workshop we are going to be using <a href="https://raw.githubusercontent.com/swat-ds/datasets/main/1847census/sofaac-raw-export.csv">historical data derived from an 1847 Quaker census of African Americans living the Philadelphia area</a>, found in Friends Historical Library. Please note: this dataset and the way it was collected includes stigmatizing descriptions and categories you may find offensive. You can learn more about the dataset in <a href="https://ds-pages.swarthmore.edu/paac/">the companion online exhibit</a>.</p>
 <p>What does the file consist of? A strategy that is often of use is to explore a dataset before getting bogged down by line level details. We might use a tool like the web application <a href="https://databasic.io/en/wtfcsv/">WTFcsv</a>, part of databasic.io to get started.</p>
+<p>To download the dataset, open <a href="https://raw.githubusercontent.com/swat-ds/datasets/main/1847census/sofaac-raw-export.csv">this link to the raw csv</a> and go to <strong>File &gt; Save Page As</strong> in your browser’s top menu bar. Once you have downloaded it, upload it to WTFcsv (navigate to <a href="https://databasic.io/en/wtfcsv/">WTFcsv</a> and select <strong>Upload a File</strong>). What do you notice about this dataset?</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
