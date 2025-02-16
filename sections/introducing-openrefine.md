@@ -7,11 +7,11 @@ It allows users to bring in messy data easily without requiring preliminary tran
 
 A couple things to note about OpenRefine: The software was originally written for the web so it runs in the browser rather than its own window. Rather than opening and saving files, it imports data into a "project" from which we can export versions of data suited to our needs.
 
-If you haven't yet, be sure to download and install OpenRefine according to [the instructions on the installations page](https://github.com/tri-cods/install/blob/master/guides/open_refine.md).
+If you haven't yet, be sure to download and install OpenRefine according to [the instructions in the OpenRefine documentation](https://openrefine.org/docs/manual/installing).
 
 ## Importing Data
 
-Like git, OpenRefine is not structured around discrete files that you open and save. Data is imported into a project without affecting the original file. Changes made to that data are bundled together into another file. Rather than saving over or saving multiple copies of data (i.e., `datafile_final-reallyfinal-FINAL.xls`) projects allow users to export derivative files with fine-grained control over how those derivatives should be formed.
+OpenRefine is not structured around discrete files that you open and save. Data is imported into a project without affecting the original file. Changes made to that data are bundled together into another file. Rather than saving over or saving multiple copies of data (i.e., `datafile_final-reallyfinal-FINAL.xls`) projects allow users to export derivative files with fine-grained control over how those derivatives should be formed.
 
 1) From the **Create Project** option, select **Choose Files**
 
@@ -23,7 +23,7 @@ Like git, OpenRefine is not structured around discrete files that you open and s
 
 ## Importing Sample Data
 
-For our workshop we are going to be using [historical data derived from an 1847 Quaker census of African Americans living the Philadelphia area](https://raw.githubusercontent.com/swat-ds/datasets/main/1847census/sofaac-raw-export.csv), found in Friends Historical Library. [More context about the dataset](https://ds-pages.swarthmore.edu/paac/) is available in the GitHub repository as well as in [the companion online exhibit](https://ds-pages.swarthmore.edu/paac/).
+For our workshop we are going to be using [historical data derived from an 1847 Quaker census of African Americans living the Philadelphia area](https://raw.githubusercontent.com/swat-ds/datasets/main/1847census/sofaac-raw-export.csv), found in Friends Historical Library. More context about this dataset is available in [the companion online exhibit](https://ds-pages.swarthmore.edu/paac/).
 
 Now create an OpenRefine project by selecting Create Project after which you have two options:
 
