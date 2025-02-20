@@ -239,7 +239,7 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <p>Under the <strong>Residence</strong> column, select <strong>Edit column</strong> -&gt; <strong>Add column based on this column…</strong>.</p>
-<p>Add a new column name, in this case ‘Street name’. For our purposes, we will be using <a href="https://github.com/OpenRefine/OpenRefine/wiki/GREL-String-Functions">General Refine Expression Language</a> (note the options for Python or Clojure in the dropdown menu). As we enter text in the resulting prompt, we can see results update live.</p>
+<p>Add a new column name, in this case ‘Street name’. For our purposes, we will be using <a href="https://openrefine.org/docs/manual/grel">General Refine Expression Language</a> (note the options for Python or Clojure in the dropdown menu). As we enter text in the resulting prompt, we can see results update live.</p>
 <p>Start by entering <code>value</code>. Next, let’s try to find a particular value – say the number ‘144’. We would do this by using the method <code>find</code>, as in <code>value.find('144')</code>.</p>
 <p>How about any number? We can use a commonly used shorthand code called <strong>regular expressions</strong> to match whole classes of characters, in this case Arabic numerals.</p>
 <p>First we need to indicate we are going to use a regular expression instead of normal text. We do this with <code>/</code> slashes instead of quotation marks.</p>
