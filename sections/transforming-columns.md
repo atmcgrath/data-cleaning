@@ -31,7 +31,7 @@ Under the **Residence** column, selecting **Text facet** isn't super helpful bec
 
 Under the **Residence** column, select **Edit column** -> **Add column based on this column...**.
 
-Add a new column name, in this case 'Street name'. For our purposes, we will be using [General Refine Expression Language](https://github.com/OpenRefine/OpenRefine/wiki/GREL-String-Functions) (note the options for Python or Clojure in the dropdown menu). As we enter text in the resulting prompt, we can see results update live. 
+Add a new column name, in this case 'Street name'. For our purposes, we will be using [General Refine Expression Language](https://openrefine.org/docs/manual/grel) (note the options for Python or Clojure in the dropdown menu). As we enter text in the resulting prompt, we can see results update live. 
 
 Start by entering `value`. Next, let's try to find a particular value -- say the number '144'. We would do this by using the method `find`, as in `value.find('144')`.
 

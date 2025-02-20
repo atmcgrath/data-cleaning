@@ -13,7 +13,7 @@ See [exploring OpenRefine](exploring-openrefine.md) to revisit how to cluster an
 
 ## Reconcile historical addresses
 
-While there are more sophisticated methods and more elaborate historical gazetteers, we could informally begin with [historical alleys](http://www.philahistory.net/alleys.html) and [18th century street-name changes](http://www.philahistory.net/streets.html) from philahistory.net.
+While there are more sophisticated methods and more elaborate historical gazetteers, we could informally begin with [historical alleys](https://www.philahistory.net/alleys.html) and [18th century street-name changes](http://www.philahistory.net/streets.html) from philahistory.net.
 
 ## Geocode addresses
 
